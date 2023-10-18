@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/layout.tsx", "app/components/showcase/sidebar.tsx", "app/footer.jsx", "app/api/auth/[...nextauth]/options.js", "app/api/users/signup/route.js", "pages/api/nik.js", "pages/api/example.ts", "app/page.tsx", "app/api/auth/[...nextauth]/route.js", "app/api/prompt/new/route.js", "app/api/prompt/new/route.js", "app/api/prompt/new/route.js"],
+  "exclude": ["node_modules"]
+}
