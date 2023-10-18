@@ -9,7 +9,7 @@ const Page  = () => {
   return (
     <div>
       <div>
-        <h1>Category</h1>
+        <h1>Caegory</h1>
         <h1>Posts</h1>
         LoadMore
 
